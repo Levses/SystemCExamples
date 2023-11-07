@@ -4,7 +4,7 @@
     },
     "configurations": [
         {
-            "name": "systemc",
+            "name": "SystemC",
             "browse": {
                 "path": [
                     "${workspaceFolder}",
@@ -13,7 +13,9 @@
                 ],
                 "limitSymbolsToIncludedHeaders": false
             },
+
             "includePath": [
+                "/Users/armkha02/systemc/INSTALL/include",
                 "${workspaceFolder}/**",
 		        "${env:SYSTEMC_PATH}/src/**",
                 "${env:SYSTEMC_PATH}/include/**"

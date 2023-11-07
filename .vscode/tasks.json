@@ -12,7 +12,7 @@
                 "-lsystemc",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "${fileDirname}/build/${fileBasenameNoExtension}",
                 "-I/Users/armkha02/systemc/INSTALL/include",
                 // Add library path if linking is required
                 "-L/Users/armkha02/systemc/INSTALL/lib",
